@@ -1,0 +1,12 @@
+
+<mat-card>
+    <mat-card-header style="background-color: blue;color: white;">
+     <ng-content select="h5"></ng-content>
+    </mat-card-header>
+    <mat-card-content>
+        <ng-content select=".content">details available soon.......</ng-content>
+    </mat-card-content>
+    <mat-card-footer style="background-color: grey;">
+        <ng-content select=".foot"><span style="float: right;">details available soon.......</span></ng-content>
+    </mat-card-footer>
+</mat-card>
